@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script>
+    document.onload = (function(){
+        document.write(atob(window.location.href.split('#')[1]));
+        document.close();
+    });
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
 </head>
 <body>
-    <script>
-        document.write(atob(window.location.href.split('#')[1]));
-        document.close();
-    </script>
+    YOU SHOULD NOT SEE THIS >:(
 </body>
 </html>
